@@ -1,0 +1,120 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1747401290" file="C:\Users\Yash\Documents\MATLAB\creation\ExtendedSINAD2.0\MainDialog.prj" location="C:\Users\Yash\Documents\MATLAB\creation\ExtendedSINAD2.0" name="MainDialog" preferred-package-location="C:\Users\Yash\Documents\MATLAB\creation\ExtendedSINAD2.0\MainDialog\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Extended_SINAD_Calculator</param.appname>
+    <param.icon>${PROJECT_ROOT}\MainDialog_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\MainDialog_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\MainDialog_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\MainDialog_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\MainDialog_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>2.0</param.version>
+    <param.authnamewatermark>YashVyas-1266490</param.authnamewatermark>
+    <param.email>vyas@stud.fra-uas.de</param.email>
+    <param.company>franfurt University of applied sciences</param.company>
+    <param.summary>Extended_SINAD_calculator</param.summary>
+    <param.description>User defined Signal and Noise.
+Plot for signal analysis.
+Developed as Individual Project under guidance of Prof. Dr. Pech</param.description>
+    <param.screenshot>C:\Users\Yash\Desktop\ON_GOING_WORK\SINAD\0.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\franfurt University of applied sciences\Extended_SINAD_Calculator\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\MainDialog\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\MainDialog\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\MainDialog\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\MainDialog</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MainDialog.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\ExtendedBundledDialog.mlapp</file>
+      <file>${PROJECT_ROOT}\ExtendedWindowDialog.mlapp</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\MainDialog\for_testing" name="Extended_SINAD_Calculator.exe" optional="false">C:\Users\Yash\Documents\MATLAB\creation\ExtendedSINAD2.0\MainDialog\for_testing\Extended_SINAD_Calculator.exe</file>
+      <file location="${PROJECT_ROOT}\MainDialog\for_testing" name="readme.txt" optional="true">C:\Users\Yash\Documents\MATLAB\creation\ExtendedSINAD2.0\MainDialog\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\MainDialog\for_testing" name="splash.png" optional="false">C:\Users\Yash\Documents\MATLAB\creation\ExtendedSINAD2.0\MainDialog\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
